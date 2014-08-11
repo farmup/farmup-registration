@@ -1,0 +1,128 @@
+/* ==========================================================================
+	@author: Luis Mendoza;
+   ========================================================================== */
+
+/* ==========================================================================
+	Global
+   ========================================================================== */
+
+a:hover{
+	text-decoration: none;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.center-block {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.no-bold{
+	font-weight: normal !important;
+}
+
+.fill{
+	width: 100%;
+}
+
+.w300{
+	font-weight: 300 !important;
+}
+
+.shadow{
+	text-shadow: 1px 1px 3px #000;
+}
+
+.no-shadow{
+	text-shadow: none;
+}
+
+.seccion{
+	padding: 5% 3%;
+}
+
+.seccion-small{
+	padding: 3% 1%;
+}
+
+/* ==========================================================================
+	1. Intro
+   ========================================================================== */
+
+#logo-main{
+	width: 600px;
+}
+
+#home-hero{
+	background-image: url(../img/stock/agricultor.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	padding-top: 100px;
+	padding-bottom: 80px;
+}
+
+#home-hero .container{
+	color: #fff !important;
+}
+
+/* ==========================================================================
+	2. Why
+   ========================================================================== */
+
+/* ==========================================================================
+	3. Que
+   ========================================================================== */
+
+#que{
+	/*background-image: url(../img/stock/chile-blur.jpg);*/
+	background-color: #eee;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+#devices{
+	width: 700px;
+}
+
+/* ==========================================================================
+	4. Como
+   ========================================================================== */
+.pasos li{
+	list-style-type: none;
+	padding-bottom: 20px;
+}
+
+.pasos i{
+	vertical-align: middle;
+}
+
+.pasos .small{
+	font-size: 14px;
+}
+
+.pasos span{
+	font-size: 20px;
+	padding-left: 10px;
+	vertical-align: middle;
+}
+
+
+
+
+
