@@ -80,6 +80,15 @@ a:hover{
 	color: #fff !important;
 }
 
+#conoce-mas a{
+	color: #fff !important;
+}
+
+#conoce-mas a:hover{
+	color: #eee !important;
+}
+
+
 /* ==========================================================================
 	2. Why
    ========================================================================== */
@@ -125,7 +134,43 @@ a:hover{
 .feature-box{
 }
 
+/* ==========================================================================
+	5. Call 2
+   ========================================================================== */
+
+#callToAtction2{
+	/*background-image: url(../img/stock/chile-blur.jpg);*/
+	background-color: #eee;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
 
 
+/* ==========================================================================
+	6. Footer
+   ========================================================================== */
 
+footer{
+	background-color: #373737;
+	color: #fff !important;
+}
+
+footer a{
+	color: #fff !important;
+}
+
+#logo-footer{
+	width: 100px;
+}
+
+/* ==========================================================================
+	7. Registration
+   ========================================================================== */
+#registration{
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 30px;
+	background-color: #eee;
+}
 

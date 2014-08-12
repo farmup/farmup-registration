@@ -302,18 +302,6 @@
 	background-color: #b3b3b3 !important;
 }
 
-footer{
-	background-color: #373737;
-	color: #fff !important;
-}
-
-footer a{
-	color: #fff !important;
-}
-
-#logo-footer{
-	width: 100px;
-}
 
 @media only screen and (max-width: 992px) and (min-width: 768px){
 	.navbar-collapse>ul>li>a{
