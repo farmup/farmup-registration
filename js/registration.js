@@ -1,4 +1,5 @@
-ocupacion;
+ocupacion = null;
+
 $(document).ready(function() {
 
   $('#btn-otro').click(function(){
