@@ -1,4 +1,4 @@
-ocupacion =
+ocupacion;
 $(document).ready(function() {
 
   $('#btn-otro').click(function(){
@@ -91,10 +91,11 @@ function validate(){
 
 	    usuario.save(null, {
 		  success: function() {
-		    alert('Gracias!');
+		    alert('¡Gracias! Muy pronto nos pondremos en contacto contigo.');
+		    window.location = 'http://farmup.mx'
 		  },
 		  error: function(gameScore, error) {
-		    alert('Error al registrar los datos, intentalo de nuevo.');
+		    alert('Error al registrar los datos, inténtalo de nuevo.');
 		  }
 		});
 	}
