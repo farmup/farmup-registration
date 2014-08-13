@@ -39,20 +39,29 @@
             <h1 class="w300 center">¡Bienvenido!</h1>
             <h3 class="w300 center">Déjanos tus datos y muy pronto te contactaremos.</h3>
 
-            <form role="form">
-              <div class="form-group">
+            <form id="registration-form" role="form">
+
+              <div id="nombreFrm" class="form-group">
                 <label for="exampleInputEmail1">Nombre*</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Nombre">
+                <input type="text" class="form-control" id="nombreIn" placeholder="Nombre" minlength="2" required>
               </div>
-              <div class="form-group">
+
+              <div id="apellidoFrm" class="form-group">
                 <label for="exampleInputEmail1">Apellido*</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Apellido">
+                <input type="text" class="form-control" id="apellidoIn" placeholder="Apellido" minlength="2" required>
               </div>
-              <div class="form-group">
+
+              <div id="emailFrm" class="form-group">
                 <label for="exampleInputEmail1">Correo electrónico*</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                <input type="email" class="form-control" id="emailIn" placeholder="Email" required>
               </div>
+
               <div class="form-group">
+                <label for="exampleInputEmail1">Teléfono</label>
+                <input type="phone" class="form-control" id="phoneIn" placeholder="Teléfono">
+              </div>
+
+              <div id="ocupacionFrm" class="form-group">
                 <label for="exampleInputEmail1" style="width:100%">Ocupación*</label>
                 <div class="radio-inline">
                   <label style="w300">
@@ -73,13 +82,26 @@
                   </label>
                 </div>
                 <div id="otro-input" class="hidden form-group">
-                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Otro">
-                </div>
-                <div class="hidden form-group">
-                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Otro">
+                  <input type="text" class="form-control" id="otroIn" placeholder="Chef, distribuidor, etc...">
                 </div>
               </div>
-              <button type="submit" class="btn btn-default">Submit</button>
+
+              <div class="form-group">
+                <label style="w300">
+                  Descripción de tu negocio
+                </label>
+                <textarea id="descripcionIn" class="form-control fill" rows="5"></textarea>
+              </div>
+
+              <div class="form-group">
+                <label style="w300">
+                  ¿Tienes algún comentario?
+                </label>
+                <textarea id="comentariosIn" class="form-control fill" rows="5" style="width:100%"></textarea>
+              </div>
+
+              <button id="submit-registration" class="btn btn-primary fill" onclick="validate()">Enviar</button>
+
             </form>
 
           </div>
@@ -102,7 +124,10 @@
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
-        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/vendor/bootstrap.min.js"></script> 
+        <script src="plugins/jquery.validate.min.js"></script>
+        <script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.2.19.min.js"></script>
+        <script src="js/parse.js"></script>
         <script src="js/registration.js"></script>
 
     </body>

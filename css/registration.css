@@ -36,7 +36,7 @@ a:hover{
 }
 
 .fill{
-	width: 100%;
+	width: 100% !important;
 }
 
 .w300{
@@ -65,6 +65,10 @@ section{
 
 .transparent{
 	background-color: transparent;
+}
+
+.error{
+	color: red;
 }
 
 /* ==========================================================================
