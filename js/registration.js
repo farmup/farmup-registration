@@ -32,6 +32,7 @@ $(document).ready(function() {
 
   $('#registration-form').validate();
 
+
 });
 
 function validate(){
